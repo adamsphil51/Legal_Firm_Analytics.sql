@@ -41,7 +41,7 @@ CREATE TABLE Lawyers (
     FOREIGN KEY (FirmID) REFERENCES LawFirms(FirmID)
 );
 
--- Sample Lawyers (you can expand)
+-- Sample Lawyers
 INSERT INTO Lawyers (LawyerID, LawyerName, FirmID, Department) VALUES
 (1, 'Alice Karanja', 1, 'Corporate'),
 (2, 'Brian Mwangi', 2, 'Litigation'),
